@@ -25,6 +25,13 @@ body{
     box-sizing: border-box;   
 }
 
+#displayInput{
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    border: none;
+}
+
 #keyboard{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -36,10 +43,6 @@ button{
     font-size: 2rem;
     transition: 0.2s;
     cursor: pointer;
-}
-
-.num, .dot, .equal{
-    color: #333;
 }
 
 .operator{
